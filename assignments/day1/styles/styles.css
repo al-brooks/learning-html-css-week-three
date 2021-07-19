@@ -9,6 +9,15 @@ body {
 nav {
   /* border: 3px solid blue; */
   display: inline-block;
+  margin-top: 25px;
+}
+
+img {
+  height: 800px;
+}
+
+section {
+  margin: 35px auto;
 }
 
 table,
@@ -19,10 +28,23 @@ td {
   text-align: center;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 a img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
+}
+
+.gif {
+  height: auto;
 }
 
 #one {
