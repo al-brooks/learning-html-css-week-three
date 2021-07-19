@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  margin: 50px auto;
+  background-image: url(../images/popcorn.gif);
+  color: white;
+  font-size: 30px;
+}
+
+nav {
+  /* border: 3px solid blue; */
+  display: inline-block;
+}
+
+table,
+td {
+  table-layout: fixed;
+  width: 400px;
+  /* border: 2px solid green; */
+  text-align: center;
+}
+
+a img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+#one {
+  height: 300px;
+  width: auto;
+}
