@@ -1,4 +1,5 @@
 body {
+  font-family: 'Zen Tokyo Zoo', cursive;
   margin: 2px 2px 0px;
   color: rgb(164, 201, 164);
 }
@@ -26,8 +27,8 @@ td {
 }
 
 .container {
-  height: 100vh;
-  padding-top: 30px;
+  height: 95vh;
+  padding-top: 5vh;
   /* margin: 5px auto 5px; */
   background-color: black;
 }
@@ -35,6 +36,12 @@ td {
 .bricks {
   height: 230px;
   background-color: black;
+}
+
+.box {
+  height: 7px;
+  width: 7px;
+  background-color: white;
 }
 
 #red tr td {
@@ -64,4 +71,40 @@ td {
 #yellow .removed {
   background-color: black;
   box-shadow: none;
+}
+
+#one {
+  position: absolute;
+  bottom: 399px;
+  left: 146px;
+}
+
+#two {
+  position: absolute;
+  bottom: 398px;
+  left: 627px;
+}
+
+#three {
+  position: absolute;
+  top: 320px;
+  left: 70px;
+}
+
+#pad {
+  position: absolute;
+  height: 10px;
+  width: 100px;
+  background-color: rgb(164, 201, 164);
+  bottom: -38px;
+  left: 375px;
+  border-radius: 4%;
+  box-shadow: 1px -1px 1px;
+}
+
+#ledge {
+  height: 3px;
+  width: 100%;
+  background-color: gray;
+  box-shadow: 1px -1px 1px;
 }
