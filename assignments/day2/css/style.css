@@ -22,6 +22,7 @@ main {
 
 td {
   border-radius: 4%;
+  box-shadow: 1px -1px 1px;
 }
 
 .container {
@@ -58,4 +59,9 @@ td {
   width: 200px;
   height: 25px;
   background-color: blue;
+}
+
+#yellow .removed {
+  background-color: black;
+  box-shadow: none;
 }
