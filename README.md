@@ -7,3 +7,7 @@ assignments/day1:
 assignments/day2:
 
     -> Bricks Game UI
+
+assignments/day3:
+
+    -> Responsive Website

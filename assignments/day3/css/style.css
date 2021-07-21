@@ -193,8 +193,21 @@ img {
   }
   #top-navbar {
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+    justify-content: space-evenly;
+    height: 80px;
+  }
+
+  #top-navbar span {
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  #banner {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    background-image: url(../images/pokemon_banner.jpeg);
+    background-position: center;
   }
 }
