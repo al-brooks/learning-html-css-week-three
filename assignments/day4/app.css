@@ -30,19 +30,26 @@
 
 .gradient-custom {
   /* fallback for old browsers */
-  background: #ebbba7;
+  background: #ebbba7 !important;
 
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-linear-gradient(
     to top,
     rgba(235, 187, 167, 1),
     rgba(207, 199, 248, 1)
-  );
+  ) !important;
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(
     to top,
     rgba(235, 187, 167, 1),
     rgba(207, 199, 248, 1)
-  );
+  ) !important;
+}
+
+.custom-bg {
+  background-color: #212529 !important;
+}
+.custom-text {
+  color: white !important;
 }
