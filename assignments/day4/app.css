@@ -1,55 +1,64 @@
-.opacity-0 {
-  opacity: 0 !important;
-}
-.opacity-1 {
-  opacity: 0.2 !important;
-}
-.opacity-2 {
-  opacity: 0.4 !important;
-}
-.opacity-3 {
-  opacity: 0.6 !important;
-}
-.opacity-4 {
-  opacity: 0.8 !important;
-}
-.opacity-5 {
-  opacity: 1 !important;
+body {
+  font-family: 'Nunito', sans-serif;
 }
 
-/* Maybe even support hover opacity shifts */
-.opacity-0h5 {
-  opacity: 0 !important;
-  transition: opacity 0.25s ease-in-out !important;
-  -moz-transition: opacity 0.25s ease-in-out !important;
-  -webkit-transition: opacity 0.25s ease-in-out !important;
-}
-.opacity-0h5:hover {
-  opacity: 1 !important;
+.navbar-nav {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
 }
 
 .gradient-custom {
   /* fallback for old browsers */
-  background: #ebbba7 !important;
+  background: #f8f9fa !important;
 
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-linear-gradient(
     to top,
-    rgba(235, 187, 167, 1),
-    rgba(207, 199, 248, 1)
-  ) !important;
+    rgba(248, 249, 250, 0.5),
+    rgba(33, 37, 41, 0.5)
+  ) !important  ;
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(
     to top,
-    rgba(235, 187, 167, 1),
-    rgba(207, 199, 248, 1)
+    rgba(248, 249, 250, 0.5),
+    rgba(33, 37, 41, 0.5)
   ) !important;
 }
 
-.custom-bg {
-  background-color: #212529 !important;
+#top-nav {
+  border-color: #212529 !important;
+  background-color: #f8f9fa !important;
 }
-.custom-text {
-  color: white !important;
+
+.nav-item:hover {
+  color: #212529;
+}
+
+#main-sec {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#main-article-sec.row {
+  height: 500px;
+}
+
+#main-title {
+  font-weight: 700;
+  color: #f8f9fa;
+}
+
+#main-text {
+  font-weight: 100;
+}
+
+#main-button {
+  background-color: #f8f9fa;
+  font-weight: 500;
+}
+
+#small-article-sec {
+  padding: 30px;
+  /* background-color: #495057; */
 }

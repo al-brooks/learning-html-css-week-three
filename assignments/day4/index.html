@@ -5,115 +5,144 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HighOnCoding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="app.css" />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">High On Coding</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Articles</a>
-            </li>
+  <body class="gradient-custom">
+    <div class="container-fluid px-0">
+      <nav
+        id="top-nav"
+        class="navbar navbar-expand-lg navbar-light border fixed-top"
+      >
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">
+            <img
+              src="images/highoncoding_logo.jpeg"
+              alt=""
+              width="30"
+              height="24"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li id="home-button" class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Articles</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-    <main class="container-fluid gradient-custom pt-5 pb-5">
-        <section class="row">
-            <div class="col-lg-6 align-middle opacity-4">
-                <h1 class="display-2">The Curse of Current Reviews</h1>
-                <p class="fs-4 fw-bold">When you want to buy any application from the Apple iTunes store you have more choices than you can handle. Most of the users scroll past the application description completely avoiding it like ads displyed on the right column of your webpage. Their choice is dependent on three important factors: price, screenshots and reviews.</p>
-                <button class="btn btn-dark">Read More</button>
-            </div>
-            <div class="col-lg-6">
-                <img class="img-fluid" src="images/medium_programming_logos.png" alt="">
-            </div>
+      </nav>
+
+      <main class="container-fluid pt-5 pb-5">
+        <section id="main-sec" class="row d-flex justify-content-center">
+          <div
+            id="main-article"
+            class="col-10 col-md-8 align-middle border rounded p-5"
+          >
+            <h1 id="main-title" class="display-1 text-center">
+              The Curse of Current Reviews
+            </h1>
+            <p class="main-text fs-4 fw-bold align-middle">
+              When you want to buy any application from the Apple iTunes store
+              you have more choices than you can handle. Most of the users
+              scroll past the application description completely avoiding it
+              like ads displyed on the right column of your webpage. Their
+              choice is dependent on three important factors: price, screenshots
+              and reviews.
+            </p>
+            <button id="main-button" class="btn">Read More</button>
+          </div>
         </section>
-    </main>
-    <section class="container-fluid ps-0 pe-0 mt-3">
-        <section class="accordion row" >
-            <article class="accordion-item col-md-6">
-                <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button custom-bg custom-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Hello WatchKit
-                </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        Last month Apple released the anticipated WatchKit Framework for developers in the form of iOS 8.2 beta SDK release. The WatchKit framework enable the developers to create Apple Watch applications. In this article we are going to focus on the basics of getting started with the WatchKit framework and developing apps for the Apple Watch.
-                    </div>
-                </div>
-            </article>
-            <article class="accordion-item col-md-6">
-                <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button custom-bg custom-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                    Introduction to Swift
-                </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        Swift is a modern programming language developed by Apple to create the next generation of iOS and OSX applications. Swift is a fairly new language and still in development but it clearly reflects the intentions and the future direction. This article will revolve around the basic concepts in the Swift language and how you can get started.
-                    </div>
-                </div>
-            </article>
-            <article class="accordion-item col-md-6">
-                <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button custom-bg custom-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                    Creating Gravity Enabled Notification  Banner Control in iOS7
-                </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        iOS 7 framework introduced many new features which allowed the developers to create the next generation of applications. One of the most interesting feature is UIKit Dynamics framework. UIKit Dynamics allows the developer to create physics enabled effects which users can relate to the real world. In this article we are going to implement a notification banner control which utilizes the features provided by the UIKit Dynamics framework.
-                    </div>
-                </div>
-            </article>
-            <article class="accordion-item col-md-6">
-                <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button custom-bg custom-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                    Tilt Scrolling Using Core Motion
-                </button>
-                </h2>
-                <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        The tilt to scroll functionality has become an integral part of any text heavy application. The first time we got introduced to the tilt to scroll functionality was through the Instapaper application. In this article we will demonstrate how to implement this functionality using Core Motion API.
-                    </div>
-                </div>
-            </article>
-            <article class="accordion-item col-md-6">
-                <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button custom-bg custom-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                    Creating a Flipping Tweets View
-                </button>
-                </h2>
-                <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        The number of ways that you can display a Twitter feed in your app is only limited by your imagination. In this article we will demonstrate how you can implement a flipping view which displays the tweets inside your app.
-                    </div>
-                </div>
-            </article>
+        <section
+          id="small-article-sec"
+          class="row d-flex justify-content-center justify-content-md-start"
+        >
+          <div class="secondary-articles col-10 ps-md-5 mb-5">
+            <h2 class="display-5">Hello WatchKit</h2>
+            <p class="fs-4 fw-bold align-middle">
+              Last month Apple released the anticipated WatchKit Framework for
+              developers in the form of iOS 8.2 beta SDK release. The WatchKit
+              framework enable the developers to create Apple Watch
+              applications. In this article we are going to focus on the basics
+              of getting started with the WatchKit framework and developing apps
+              for the Apple Watch.
+            </p>
+            <button class="btn btn-dark">Read More</button>
+          </div>
+          <div class="secondary-articles col-10 ps-md-5 mb-5">
+            <h2 class="display-5">Introduction to Swift</h2>
+            <p class="fs-4 fw-bold align-middle">
+              Swift is a modern programming language developed by Apple to
+              create the next generation of iOS and OSX applications. Swift is a
+              fairly new language and still in development but it clearly
+              reflects the intentions and the future direction. This article
+              will revolve around the basic concepts in the Swift language and
+              how you can get started.
+            </p>
+            <button class="btn btn-dark">Read More</button>
+          </div>
+          <div class="secondary-articles col-10 ps-md-5 mb-5">
+            <h2 class="display-5">
+              Creating Gravity Enabled Notification Banner Control in iOS 7
+            </h2>
+            <p class="fs-4 fw-bold align-middle">
+              iOS 7 framework introduced many new features which allowed the
+              developers to create the next generation of applications. One of
+              the most interesting feature is UIKit Dynamics framework. UIKit
+              Dynamics allows the developer to create physics enabled effects
+              which users can relate to the real world. In this article we are
+              going to implement a notification banner control which utilizes
+              the features provided by the UIKit Dynamics framework.
+            </p>
+            <button class="btn btn-dark">Read More</button>
+          </div>
+          <div class="secondary-articles col-10 ps-md-5 mb-5">
+            <h2 class="display-5">Tilt Scrolling Using Core Motion</h2>
+            <p class="fs-4 fw-bold align-middle">
+              The tilt to scroll functionality has become an integral part of
+              any text heavy application. The first time we got introduced to
+              the tilt to scroll functionality was through the Instapaper
+              application. In this article we will demonstrate how to implement
+              this functionality using Core Motion API.
+            </p>
+            <button class="btn btn-dark">Read More</button>
+          </div>
+          <div class="secondary-articles col-10 ps-md-5 mb-5">
+            <h2 class="display-5">Creating a Flipping Tweets View</h2>
+            <p class="fs-4 fw-bold align-middle">
+              The number of ways that you can display a Twitter feed in your app
+              is only limited by your imagination. In this article we will
+              demonstrate how you can implement a flipping view which displays
+              the tweets inside your app.
+            </p>
+            <button class="btn btn-dark">Read More</button>
+          </div>
         </section>
-    </section>
+      </main>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
